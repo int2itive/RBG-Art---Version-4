@@ -189,8 +189,8 @@ h4 {
 }
 
 .artist_img_wrapper, .artist_bio_wrapper {
-/*   position: relative;
-  flex: 1 1 50%; */
+  position: relative;
+/*   flex: 1 1 50%; */
 /*   width: 50% */
 }
 
