@@ -398,6 +398,7 @@ h4 {
   text-align: right;
   align-self: flex-end;
   font-family: 'Bungee';
+  font-size: .85em;
   line-height: 1;
   width: 140px;
   transform: translateX(1rem);
@@ -571,10 +572,10 @@ h4 {
   .artist_bio_wrapper > blockquote {
     transform: translateX(0);
   }
-
+/* 
   .artist_bio_wrapper {
   font-size: .85em;
-  }
+  } */
   
   .artist_bio_wrapper p {
     margin-left: -45px;
