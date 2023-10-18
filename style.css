@@ -335,7 +335,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-self: flex-start;
-  gap: .5rem;
+  gap: .75rem;
   transform: translateY(-30px);
   z-index: 5;
 }
@@ -379,8 +379,8 @@ h4 {
   background-repeat: no-repeat;
   color: #c0c0c0;
 /*   filter: blur(4px); */
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
+/*  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px; */
 /*   border: 1px solid white; */
 }
 
@@ -568,6 +568,11 @@ h4 {
     padding-left: 10px;
     font-size: .75em;
   /*   border: 1px solid white; */
+  }
+
+  .artist_bio_wrapper {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
   }
 
   .artist_bio_wrapper > blockquote {
