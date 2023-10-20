@@ -69,7 +69,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.70);
+  background-color: rgba(0, 0, 0, 0.80);
 }
 
 .main__header > * {
@@ -116,7 +116,7 @@ h4 {
 
 .main__header p {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: .75em;
+  font-size: .79em;
   color: #c0c0c0;
 /*   margin: 0 0 .1rem; */
   text-align: center;
