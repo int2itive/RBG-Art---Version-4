@@ -373,10 +373,10 @@ h4 {
   font-weight: 500;
   letter-spacing: 0.020em;
   text-shadow: 2px 2px 6px #888;
-  background-image: linear-gradient(to bottom, rgba(34, 34, 61, 0.85), rgba(0, 0, 0, 0.9)), url('https://ik.imagekit.io/ghow2otb3rc/rebirthofthegriot/media/tumblr_195698382fa906229ede8cec533791a4_7677d440_1280_kkz-ER4Vt.jpg');
+/*   background-image: linear-gradient(to bottom, rgba(34, 34, 61, 0.85), rgba(0, 0, 0, 0.9)), url('https://ik.imagekit.io/ghow2otb3rc/rebirthofthegriot/media/tumblr_195698382fa906229ede8cec533791a4_7677d440_1280_kkz-ER4Vt.jpg');
   background-position: center center;
   background-size: 300%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   color: #c0c0c0;
 /*   filter: blur(4px); */
 /*  border-top-right-radius: 8px;
