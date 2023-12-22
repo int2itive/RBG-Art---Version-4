@@ -2,15 +2,11 @@
 
 @import url('https://api.fonts.coollabs.io/css2?family=Roboto+Condensed&display=swap');
 
-@import url('https://api.fonts.coollabs.io/css2?family=Montserrat&display=swap');
-
 @import url('https://api.fonts.coollabs.io/css2?family=Open+Sans&display=swap');
 
 @import url('https://api.fonts.coollabs.io/css2?family=Bungee&display=swap');
 
 @import url('https://api.fonts.coollabs.io/css2?family=Oswald&display=swap');
-
-@import url('https://api.fonts.coollabs.io/css2?family=Noto+Sans&display=swap');
 
 
 * {
@@ -29,7 +25,6 @@ body {
 }
 
 h2 {
-  font-family: 'Bebas Neue', sans-serif;
   font-size: 3rem;
   font-size: calc(3vw + 1rem);
   color: #b26422;
@@ -45,7 +40,6 @@ h4 {
   text-align: center;  
 }
 
-
 .main__header {
   position: relative;
   display: flex;
@@ -59,7 +53,7 @@ h4 {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 /*  margin-bottom: 1.5em;*/
-  background: url('https://ik.imagekit.io/ghow2otb3rc/Projects/The Work/c0v-members/tumblr-b8c5fe832c6001adf4361759c04160e6-12e4607c-1280_BVCmbaZPgJ.jpg') center -20px / cover no-repeat;
+  background: url('https://ik.imagekit.io/ghow2otb3rc/rebirthofthegriot/c0v-members/tumblr-b8c5fe832c6001adf4361759c04160e6-12e4607c-1280_BVCmbaZPgJ.jpg') center -20px / cover no-repeat;
 }
 
 .main__header::after {
@@ -69,7 +63,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.80);
+  background-color: rgba(0, 0, 0, 0.70);
 }
 
 .main__header > * {
@@ -84,39 +78,11 @@ h4 {
   width: 60px;
   margin-bottom: 1.5rem;  
 }
-  
-.title {
-  margin: 0 0 0;
-  font-weight: 900;
-  line-height: 1.6;
-  margin-bottom: -12px;
-}
-
-.theme__text {
-  color: #c0c0c0;
-  font-family: 'Roboto Condensed';
-/*   font-family: 'Segoe UI'; */
-}
-
-.theme__title {
-  font-family: 'Bebas Neue';
-  font-size: calc(1vw + 1rem);
-  color: #b26422;  
-  margin-top: -15px;
-  margin-bottom: 10px;
-  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
-}
-
-.theme__text p {
-/*   font-family: 'Roboto'; */
-  font-family: 'Oswald', sans-serif;
-  font-size: .895em;
-  margin-bottom: 20px;
-}
 
 .main__header p {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: .79em;
+/*   font-family: 'Bebas Neue', sans-serif; */
+  font-family: "bebas-neue";
+  font-size: .75em;
   color: #c0c0c0;
 /*   margin: 0 0 .1rem; */
   text-align: center;
@@ -129,16 +95,13 @@ h4 {
   display: flex;
   width: 100%;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
-  /* border: 1px solid white; */
   font-family: 'Candara', sans-serif;
   color: #b9661f;
   margin-bottom: .5em;
 }
 
 .main__header .rbg_event__meta > h2 {
-  /* color: blue; */
   font-family: 'Candara', sans-serif;
   font-size: 1.5em;
   font-size: calc(1vw + .75rem);
@@ -147,7 +110,6 @@ h4 {
 }
 
 .main__header .rbg_event__meta > h3 {
-  /* color: blue; */
   font-family: 'Candara', sans-serif;
   font-size: 1.5em;
   font-size: calc(1vw + .45rem);
@@ -162,39 +124,91 @@ h4 {
 .container {
   max-width: 600px;
   width: calc(100vw - 3rem); /* might need to remove */  
-  width: minmax(100%, 600px);
-  width: minmax(600px, 100%);
-/*   width: 100%; */
+/*   width: minmax(100%, 600px);
+  width: min(600px, 100%); */
+  width: 99%;
   margin: 0 auto;
   padding: 2rem 0;
-/*   border: 1px solid #fff; */
-/*   padding: .5rem 0; */
 }
 
 .wrapper {
   position: relative;
   width: 100%;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+/*   width: calc(100% - 1rem); */
+/*   border-top-left-radius: 8px;
+  border-top-right-radius: 8px; */
 /*   border: 1px solid #fff; */
 }
+  
+.title {
+  margin: 0 0 0;
+  font-weight: 900;
+  line-height: 1.6;
+  margin-bottom: -12px;
+}
+
+.theme__text {
+  color: #c0c0c0;
+  font-family: 'Roboto Condensed';
+/*   font-family: 'Segoe UI'; */
+/*   border: 1px solid #c0c0c0; */
+  padding: 0 .75rem;
+}
+
+.theme__title {
+/*   font-family: 'Bebas Neue'; */
+  font-family: "bebas-neue";
+  font-size: calc(1vw + 1rem);
+  color: #b26422;  
+  margin-top: -15px;
+  margin-bottom: 1.99rem;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+.theme__text p {
+  font-family: 'Oswald';
+  font-size: 1.rem;
+  line-height: 1.3;
+  margin-bottom: 2.5rem;
+}
+
+.theme__text p:first-letter {
+/*   display: inline-block;
+  font-size: 4rem;
+  color: #b26422; */
+/*   margin-right: -5px; */
+/*   transform: translate(10px, 4px); */
+}
+
 .artist_display__card {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   position: relative;
-  margin-bottom: 2em;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+/*   margin-bottom: 2em; */
 /*   padding-top: .5rem; */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 /*   border: 1px solid #c0c0c0; */
 }
 
+.artist_display__card.scrolled {
+  opacity: 1;
+}
+
 .artist_img_wrapper, .artist_bio_wrapper {
   position: relative;
+
 /*   flex: 1 1 50%; */
 /*   width: 50% */
 }
 
+.artist_img_wrapper {
+/*   display: flex;
+  flex-direction: column; */
+  padding: 0;  /* This is part of the updated edit */
+}
 
 .artist_img_wrapper::after {
   position: absolute;
@@ -205,28 +219,29 @@ h4 {
   z-index: 1;
   pointer-events: none;
   background: linear-gradient(0deg,#191c21 0,rgba(0,0,0,.8) 10%,rgba(25,28,33,0) 55%) 80% no-repeat;
-/*   background-image: linear-gradient(
-    0deg,
-    hsla(0, 0%, 35.29%, 0) 0%,
-    hsla(0, 0%, 34.53%, 0.034375) 16.36%,
-    hsla(0, 0%, 32.42%, 0.125) 33.34%,
-    hsla(0, 0%, 29.18%, 0.253125) 50.1%,
-    hsla(0, 0%, 24.96%, 0.4) 65.75%,
-    hsla(0, 0%, 19.85%, 0.546875) 79.43%,
-    hsla(0, 0%, 13.95%, 0.675) 90.28%,
-    hsla(0, 0%, 7.32%, 0.765625) 97.43%,
-    hsla(0, 0%, 0%, 0.8) 100%
-  );   */
-/*  background-image: linear-gradient(to right, #fff 90%, #000); */
-/*  z-index: -1; */
+  background: linear-gradient(
+    to top,
+    #000 6%,
+    transparent max(20%, 20vw)
+  );
+/*   background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1) 3%, rgba(197, 170, 216, 0.025)); */
 }
 
-
+.artist_img_cont {
+  width: 100%;
+  padding: 0 1rem;
+}
 
 .artist_img_wrapper img {
+  display: block;
   width: 100%;
   height: auto;
 /*   object-position: -12px 0; */
+/*   animation: animateImage 1.1s ease-in-out 300ms;   */
+}
+
+.artist_display__card.scrolled .artist_img_wrapper img {
+  animation: animateImage 1.1s ease-in-out;  
 }
 
 .artist_img_title {
@@ -335,13 +350,23 @@ h4 {
   display: flex;
   justify-content: center;
   align-self: flex-start;
-  gap: .75rem;
-  transform: translateY(-30px);
+  gap: .5rem;
+  transform: translateY(-30px); 
   z-index: 5;
 }
 
 .med--icons > li {
   list-style: none;
+}
+
+med--icons > li > a {
+  color: currentColor;
+  transition: color 400ms ease-in-out;
+}
+
+.med--icons > li > a:hover svg {
+  fill: #b26422;
+  transition: color 400ms ease-in-out;
 }
 
 .artist_img_wrapper::after {
@@ -362,94 +387,6 @@ h4 {
   ); */
 }
 
-.artist_bio_wrapper {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  padding: 1.75em 2em;
-  font-family: 'Oswald', sans-serif;
-/*   font-family: 'Roboto Condensed'; */
-  font-size: .95em;
-  font-weight: 500;
-  letter-spacing: 0.020em;
-  text-shadow: 2px 2px 6px #888;
-  background-image: linear-gradient(to bottom, rgba(34, 34, 61, 0.85), rgba(0, 0, 0, 0.9)), url('https://ik.imagekit.io/ghow2otb3rc/rebirthofthegriot/media/tumblr_195698382fa906229ede8cec533791a4_7677d440_1280_kkz-ER4Vt.jpg');
-  background-position: center center;
-  background-size: 300%;
-  background-repeat: no-repeat;
-  color: #c0c0c0;
-/*   filter: blur(4px); */
-/*  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px; */
-/*   border: 1px solid white; */
-}
-
-.artist_bio_wrappar::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.artist_bio_wrapper > blockquote {
-  position: relative;
-  margin-bottom: 1em;
-  text-align: right;
-  align-self: flex-end;
-  font-family: 'Bungee';
-  font-size: .85em;
-  line-height: 1;
-  width: 140px;
-  transform: translateX(1rem);
-  margin-bottom: 2em;
-  border-bottom: 3px solid rgba(178,100,34, 0.6);
-}
-
-.artist_bio_wrapper > blockquote:first-of-type::before {
-  position: absolute;
-  content: "\201C";
-  left: -1px;
-  top: -20px;
-  font-size: 72px;
-  opacity: .4;
-/*   rotate: 180deg; */
-}
-
-.artist_bio_wrapper p {
-  position: relative;
-  margin-bottom: 1em;
-  z-index: 5;
-  line-height: 1.3;
- has been inseted as a test fo review purposes. */
-/*   box-shadow: 0 1px 2px rgba(250,250,250,0.07), 
-              0 2px 4px rgba(250,250,250,0.07), 
-              0 4px 8px rgba(250,250,250,0.07), 
-              0 8px 16px rgba(250,250,250,0.07),
-                0 16px 32px rgba(250,250,250,0.07), 
-                0 32px 64px rgba(250,250,250,0.07);   */
-}
-
-.artist_bio_wrapper p:last-of-type {
-  margin-bottom: 2rem;
-}
-
-.artist_bio_wrapper > .rbg_logo__wrapper {
-  position: absolute;
-  display: block;
-  bottom: 10px;
-  right: 5px;
-  height: 25px;
-  width: 25px;
-}
-
-.artist_bio_wrapper .rbg_logo__wrapper img {
-  width: 100%;
-  height: auto;
-  opacity: 0.7;
-}
-
 .artist_display__meta {
   position: absolute;
   width: 100%;
@@ -459,13 +396,15 @@ h4 {
   grid-template-columns: 1fr;
   font-family: 'Bebas Neue';
   z-index: 10;
+  padding-right: 1.0155rem;
+/*   transform: translateX(-1rem); */
 }
 
 .artist_display__meta > h3 {
   position: relative;
   justify-self: end;
   color: #c0c0c0;
-  padding-right: .5em;
+  padding-right: .6rem;
   letter-spacing: 0.1em;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -491,15 +430,141 @@ h4 {
   background-color: #b26422;
   bottom: 0;
   right: calc(25% + 2px);
-  right: 0.5em;
+  right: 0.55em;
+  right: .7rem;
 }
 .artist_display__meta > p {
   justify-self: end;
   color: #b26422;
   transform: translateY(3px);
-  padding-right: 10px;
+  padding-right: 0.9em;
+  padding-right: .7rem;
   font-size: .75em;
 /*   border: 1px solid white; */
+}
+
+.artist_bio_wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1.75em 2em;
+  font-family: 'Oswald', sans-serif;
+/*   font-family: 'Roboto Condensed'; */
+  font-size: .85em;
+  font-weight: 500;
+  letter-spacing: 0.020em;
+  background-color: #090909;
+/*   text-shadow: 2px 2px 6px #888; */
+/*     background-image: linear-gradient(to bottom, rgba(34, 34, 61, 0.85), rgba(0, 0, 0, 0.9)), url('https://ik.imagekit.io/ghow2otb3rc/Projects/SoM/sound-of-mind-still_CMCw416SKa_pofBP3Rcb.webp');
+  background-position: 300px top;
+  background-size: 300%; */
+/*  background-repeat: no-repeat; */
+  color: #c0c0c0;
+/*  border-top-right-radius: 16px;
+  border-top-left-radius: 16px; */
+  overflow: hidden;
+/*   border: 1px solid white; */
+}
+
+.artist_bio_wrappar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.artist_bio_wrapper > blockquote {
+  position: relative;
+  margin-bottom: 1em;
+  text-align: right;
+  align-self: flex-end;
+  font-family: 'Bungee';
+  line-height: 1;
+  width: 140px;
+/*   transform: translateX(1rem); */
+  margin-bottom: 1em;
+  border-bottom: 3px solid rgba(164, 92, 31, 0.6);
+  opacity: 0;
+/*   background: #c0c0c0;  */
+}
+
+.artist_display__card.scrolled .artist_bio_wrapper > blockquote {
+  animation: quoteDrop 1.4s ease-in-out 1s forwards;  
+}
+
+.artist_bio_wrapper > blockquote:first-of-type::before {
+  position: absolute;
+  content: "\201C";
+  left: -1px;
+  top: -20px;
+  font-size: 72px;
+  color: #fff;
+  opacity: .4;
+/*   rotate: 180deg; */
+}
+
+.artist_bio_wrapper p {
+  position: relative;
+  width: 100%;
+  margin-bottom: 1em;
+  z-index: 5;
+  line-height: 1.3;
+/*   border: 1px solid white; */
+
+ /* has been inseted as a test fo review purposes. */
+/*   box-shadow: 0 1px 2px rgba(250,250,250,0.07), 
+              0 2px 4px rgba(250,250,250,0.07), 
+              0 4px 8px rgba(250,250,250,0.07), 
+              0 8px 16px rgba(250,250,250,0.07),
+                0 16px 32px rgba(250,250,250,0.07), 
+                0 32px 64px rgba(250,250,250,0.07);   */
+}
+
+.artist_bio_wrapper p:not(:last-of-type) {
+  text-shadow: 2px 2px 6px #888;    
+}
+
+.artist_bio_wrapper p:last-of-type {
+/*   width: 120%;
+  text-align: right; */
+  margin-bottom: 2rem;
+}
+
+.artist_bio_wrapper > .rbg_logo__wrapper {
+  position: absolute;
+  display: block;
+  bottom: 10px;
+  right: 25px;
+  height: 25px;
+  width: 25px;
+}
+
+.artist_bio_wrapper .rbg_logo__wrapper img {
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+}
+
+.artist--meta-role {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60%;
+  transform: translate(30px, -1px);
+/*   border: 1px solid #c0c0c0; */
+}
+
+.artist--meta-role > span {
+  font-family: "bebas-neue";
+  font-family: "work-sans";
+  font-size: calc(1vw + 3.4rem);
+  font-weight: 800;
+  color: hsl(223.6,12.9%,13.1%);  
+  margin-top: -15px;
+  margin-bottom: 1.99rem;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);  
 }
 
 @media (min-width: 32rem) {
@@ -513,6 +578,9 @@ h4 {
   /*   width: 50% */
   }
   
+  .artist_img_wrapper {
+    padding: 0;    
+  }
   .artist_img_wrapper::after {
      background: linear-gradient(-90deg,#191c21 0,rgba(0,0,0,.8) 10%,rgba(25,28,33,0) 55%) 80% no-repeat;    
 /*   background-image: linear-gradient(
@@ -527,29 +595,18 @@ h4 {
     hsla(0, 0%, 7.32%, 0.765625) 97.43%,
     hsla(0, 0%, 0%, 0.8) 100%
   );     */
-/* background: linear-gradient(
-  to left,
-  hsl(0, 0%, 0%) 0%,
-  hsla(0, 0%, 0%, 0.964) 7.4%,
-  hsla(0, 0%, 0%, 0.918) 15.3%,
-  hsla(0, 0%, 0%, 0.862) 23.4%,
-  hsla(0, 0%, 0%, 0.799) 31.6%,
-  hsla(0, 0%, 0%, 0.73) 39.9%,
-  hsla(0, 0%, 0%, 0.655) 48.2%,
-  hsla(0, 0%, 0%, 0.577) 56.2%,
-  hsla(0, 0%, 0%, 0.497) 64%,
-  hsla(0, 0%, 0%, 0.417) 71.3%,
-  hsla(0, 0%, 0%, 0.337) 78.1%,
-  hsla(0, 0%, 0%, 0.259) 84.2%,
-  hsla(0, 0%, 0%, 0.186) 89.6%,
-  hsla(0, 0%, 0%, 0.117) 94.1%,
-  hsla(0, 0%, 0%, 0.054) 97.6%,
-  hsla(0, 0%, 0%, 0) 100%
-); */
+    background: linear-gradient(
+    -90deg,
+    #000 0,
+    transparent max(20%, 20vw)
+     ); */
   /*  background-image: linear-gradient(to right, #fff 90%, #000); */
   /*  z-index: -1; */
   }
 
+  .artist_img_cont {
+    padding: 0;
+  }
   .artist_display__meta {
     position: absolute;
     width: 200%;
@@ -560,7 +617,16 @@ h4 {
     grid-template-columns: repeat(2, 1fr);
     font-family: 'Bebas Neue';
     z-index: 10;
+    transform: translateX(0);  
   }
+  
+  .artist_display__meta h3 {
+    padding-right: .5em;  
+  }
+
+  .artist_display__meta > h3::after {
+    right: 0.55em;
+  }  
   .artist_display__meta > p {
     justify-self: start;
     color: #b26422;
@@ -569,26 +635,79 @@ h4 {
     font-size: .75em;
   /*   border: 1px solid white; */
   }
-
+  
   .artist_bio_wrapper {
+  padding: 1.75em .5em;    
     border-top-right-radius: 8px;
+    border-top-left-radius: 0;    
     border-bottom-right-radius: 8px;
+    overflow: visible;
   }
 
   .artist_bio_wrapper > blockquote {
+    margin-right: 26px;
     transform: translateX(0);
   }
-/* 
-  .artist_bio_wrapper {
-  font-size: .85em;
-  } */
   
   .artist_bio_wrapper p {
-    margin-left: -45px;
+/*     margin-left: -45px; */
+       opacity: 0;
+
+  }
+  
+  .artist_display__card.scrolled .artist_bio_wrapper > p {
+    animation: textInMotion 1.6s ease-in-out 1s  forwards;  
   }
   
   .artist_bio_wrapper > p:last-f-type {
     margin-bottom: 2rem;
+  }
+  
+  .artist_bio_wrapper > .rbg_logo__wrapper {
+    right: 10px;
+    mix-blend-mode: screen;    
+  }
+}
+
+@keyframes animateImage {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes textInMotion {
+  0% {
+    opacity: 0;
+    transform: translateX(-1px);
+  }
+  50% {
+    opacity: 0.5;
+/*     transform: translateX(-25px); */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-28px);
+  }
+}
+
+@keyframes quoteDrop {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  50% {
+    opacity: 0.5;
+/*     transform: translateX(-25px); */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }  
 }
+
 
