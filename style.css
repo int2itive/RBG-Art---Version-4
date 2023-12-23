@@ -481,6 +481,7 @@ med--icons > li > a {
   text-align: right;
   align-self: flex-end;
   font-family: 'Bungee';
+  font-size: .85em;
   line-height: 1;
   width: 140px;
 /*   transform: translateX(1rem); */
