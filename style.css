@@ -58,7 +58,7 @@ h4 {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 /*  margin-bottom: 1.5em;*/
-  background: url('https://hips.hearstapps.com/hmg-prod/images/kwanzaa-table-candles-glowing-royalty-free-image-1668792673.jpg') center -80px / cover no-repeat;
+  background: url('https://hips.hearstapps.com/hmg-prod/images/kwanzaa-table-candles-glowing-royalty-free-image-1668792673.jpg') center center / cover no-repeat;
 }
 
 .main__header::after {
@@ -574,6 +574,9 @@ med--icons > li > a {
 }
 
 @media (min-width: 32rem) {
+  .main__header {
+    background: url('https://hips.hearstapps.com/hmg-prod/images/kwanzaa-table-candles-glowing-royalty-free-image-1668792673.jpg') center -80px / cover no-repeat;
+  }    
   .artist_display__card {
     flex-direction: row;
   }
